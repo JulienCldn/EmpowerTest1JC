@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{3B40C08C-1F16-4279-BC9B-3B9DAD032DAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{30970363-61DC-4EE9-8112-44F5BF826587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{970811A5-5840-4489-8D91-8519A9B0FF7C}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{E97C9BB8-B065-4B08-9644-4EC005C2EEDE}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{ED2F088E-DD84-4A45-8A2B-68D921342130}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmpowerTest1JC", "EmpowerTest1JC", "{F47DC483-F2F2-46A7-8C28-19679159E398}"
+	ProjectSection(SolutionItems) = preProject
+		EmpowerTest1JC.xml = EmpowerTest1JC.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{0E7C3605-10EC-4DC0-B38E-0BE024694D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpowerTest1JC_1", "EmpowerTest1JC_1\EmpowerTest1JC_1.csproj", "{B722F63D-C857-4013-8D1A-F28CCFF921E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B722F63D-C857-4013-8D1A-F28CCFF921E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B722F63D-C857-4013-8D1A-F28CCFF921E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B722F63D-C857-4013-8D1A-F28CCFF921E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B722F63D-C857-4013-8D1A-F28CCFF921E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED2F088E-DD84-4A45-8A2B-68D921342130} = {3B40C08C-1F16-4279-BC9B-3B9DAD032DAC}
+		{F47DC483-F2F2-46A7-8C28-19679159E398} = {30970363-61DC-4EE9-8112-44F5BF826587}
+		{0E7C3605-10EC-4DC0-B38E-0BE024694D44} = {F47DC483-F2F2-46A7-8C28-19679159E398}
+		{B722F63D-C857-4013-8D1A-F28CCFF921E2} = {0E7C3605-10EC-4DC0-B38E-0BE024694D44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58B60372-B1FE-481E-9434-A617445C562B}
+	EndGlobalSection
+EndGlobal
